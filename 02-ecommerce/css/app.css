@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Raleway';
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1{
+    font-family: 'PlayFair-Display';
+    font-size: 3.8rem;
+}
+
+
+
+@media (min-width: 768px) {
+    h1{
+        font-size: 5rem;
+    }
+    
+}
+
+.text-primary{
+    color: var(--bs-blue)!important;
+}
+
+.bg-primary{
+    background-color: var(--bs-blue)!important;
+}
+
+.hero{
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+:root{
+    --bs-blue: #037bc0;
+    --bs-green: #8cbc00;
+}
+
+
+@media(min-width: 768px){
+    .hero{
+        height: 55rem;
+    }
+}
+
+
+h2{
+    font-size: 3.2rem;
+}
+@media (min-width: 768px) {
+    h2{
+        font-size: 4rem;
+    }
+}
+
+h3{
+    
+    font-size: 2.4rem;
+}
+@media (min-width: 768px) {
+    h3{
+        font-size: 3rem;
+    }
+}
+
+.btn-success{
+    background-color: var(--bs-green);
+}
+
+@media(min-width:768px){
+    .miproducto img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.categoria img:hover{
+    transform: scale(1.2);
+}
+
+.categoria img:hover{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.form-label{
+    font-family: 'PlayFair-Display';
+    font-size: 2.8rem;
+}
